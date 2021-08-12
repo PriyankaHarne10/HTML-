@@ -1,0 +1,146 @@
+@charset "ISO-8859-1";
+
+.topnav{
+overflow:auto;
+background-color: maroon;
+
+}
+.topnav a{
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding:14px 16px;
+text-decoration: inherit;
+font-size: 17px;
+}
+.topnav a:hover{
+background-color: #ddd;
+color: black;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.contact-me{
+	align-content: "center";
+	background-color: black;
+	color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 600px;
+}
+
+
+.format input{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box
+  
+}
+
+
+input[type=submit] {
+  width: 20%;
+  background-color: maroon;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Welcome-section{
+	width: 100%;
+	height:100%;
+	background-color: gray;
+	display: flex;
+	justify-content:center;
+	height: 600px;
+}
+ 
+    
+ .image{
+	width: 500px;
+	height: 400px;
+	padding-top: 100px;
+}
+.name{
+	width:500px;
+	height:400px;
+	padding-top: 300px;
+}
+ 
+
+
+
+
+.Education-detail{
+	background-color:gray;
+	padding: 40px;	
+	height: 600px;
+	
+}
+
+table {
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse : collapse;
+    color:black;
+    margin: auto;
+    
+   }
+
+td, th {
+     border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    height: 80px;
+    width: 150px;
+    }
+th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+
+    }
+ 
+ .WE{
+ display: flex;
+ justify-content: space-around;
+
+ }
+    
+ .left,.right{
+ width: 500px;
+ height: 200px;
+ background-color: black;
+ color:white;
+ }
+ 
+ .YouTube{
+	background-color: gray;
+	height: 600px;
+	padding-top: 40px;
+}
+ 
+ .bottomnav{
+overflow:auto;
+background-color: maroon;
+}
+.bottomnav a{
+float: right;
+color: #f2f2f2;
+text-align: center;
+padding:14px 16px;
+text-decoration: inherit;
+font-size: 17px;
+}
+.bottomnav a:hover{
+background-color: #ddd;
+color: black;
+}
